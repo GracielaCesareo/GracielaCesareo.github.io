@@ -1,0 +1,137 @@
+nav{
+  background-color: #9c162e;
+}
+.bg-image{
+  background-image: url('https://static.pexels.com/photos/249203/pexels-photo-249203.jpeg');
+  background-size: cover;
+}
+
+#inicio{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.contenido{
+  width: 60%;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.d3 {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  color: 	#fff ;
+  text-align: center;
+  letter-spacing: 0.03vw;
+  text-shadow: -0.2vw 0 0 #F22613,  0.2vw 0 0 #00FFFF;
+}
+.arriba{
+  margin-top: -7%;
+}
+.name{
+  font-size: 6.5vw;
+}
+.last-name{
+  font-size: 8.5vw;
+}
+.developer{
+  font-family: 'Montserrat';
+  font-size: 2.3vw;
+  font-weight: 400;
+  color: #fff ;
+  text-align: center;
+}
+#proyectos{
+  /*background-color: #3c162e;*/
+}
+#proyectos .titulo{
+  color: ##1c162e ;
+}
+.titulo{
+  font-family: 'Montserrat'
+  font-weight: 900;
+  font-size: 4vw;
+  border-bottom: 1px solid black;
+  text-shadow: -0.2vw 0 0 #F22613,  0.2vw 0 0 #00FFFF;
+}
+.photo-me{
+  border-radius: 50%;
+}
+.perfil{
+  font-family: 'Montserrat'
+}
+#hab{
+  background-color: #5c162e;
+  color: #fff;
+}
+#hab .titulo{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+#hab .hab-title{
+  color: #fff;
+}
+#tools{
+  background-color: #1c162e;
+}
+#tools .titulo{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.nav-mobile{
+  display: none;
+}
+@media (min-width: 550px) and (max-width: 768px){
+  .contenido{
+    margin-top: 30%;
+  }
+  .name{
+    font-size: 10.5vw;
+  }
+  .last-name{
+    font-size: 12.5vw;
+  }
+  .developer{
+    font-size: 6.3vw;
+  }
+  .titulo{
+    font-size: 8vw;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 550px){
+  .contenido{
+    margin-top: 30%;
+  }
+  .name{
+    font-size: 10.5vw;
+  }
+  .last-name{
+    font-size: 12.5vw;
+  }
+  .developer{
+    font-size: 6.3vw;
+  }
+  .titulo{
+    font-size: 8vw;
+  }
+  i{
+    font-size: 30px;
+    color: #5c162e;
+  }
+}
+i{
+  font-size: 80px;
+  color: #5c162e;
+}
+.hab-icon{
+  color: #fff;
+  text-shadow: -0.2vw 0 0 #F22613,  0.2vw 0 0 #00FFFF;
+}
+footer{
+  background-color: #1c162e;
+}
+footer .titulo{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
